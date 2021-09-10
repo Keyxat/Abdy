@@ -1,4 +1,21 @@
-{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+:root{
+    --font: 'Poppins', san-serif;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:before, :after{
+    content: '';
+    position: absolute;
+}
+
+body{
     background:linear-gradient(to bottom right, #EA899A, #FB5471);
     min-height:100vh;
     font-family: var(--font);
