@@ -1,4 +1,5 @@
-{background:linear-gradient(to bottom right, #EA899A, #FB5471);
+{
+    background:linear-gradient(to bottom right, #EA899A, #FB5471);
     min-height:100vh;
     font-family: var(--font);
     font-size:16px;
@@ -340,4 +341,5 @@ button{
 }
 
 ::-webkit-scrollbar-thumb{
-    background:#FB5471;}
+    background:#FB5471;
+}
